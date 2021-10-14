@@ -46,6 +46,7 @@ check_fw.py -f <some_file.yaml> -v -c
 ```
 
 ## Output (Server)
+```
 ** Found server declaration, running ports...
         ** Port declarations found, ensuring listeners on ports:
                 ** 192.168.0.181:22
@@ -63,8 +64,10 @@ check_fw.py -f <some_file.yaml> -v -c
 ** Received ping from ('192.168.0.181', 45996), sending pong...
 ** Received ping from ('192.168.0.181', 45562), sending pong...
 ** Received ping from ('192.168.0.181', 58794), sending pong...
+```
 
 ## Output (Client)
+```
 ** Running port checks
         ** Scanning host 192.168.0.1
                 ** Testing port 22      [OPENED]
@@ -74,3 +77,4 @@ check_fw.py -f <some_file.yaml> -v -c
                 ** Testing port 5432    [CLOSED]
                 ** Testing port 443     [CLOSED]
                 ** Testing port 8443    [CLOSED]
+```
