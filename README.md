@@ -1,6 +1,4 @@
 # Client/Server script to check firewall ports
-### Author: Ryan McGuire
-
 ## Config
 In either server or client mode, a config file is specified containing 
 server and client config entries. The yaml config can contain both, or only
