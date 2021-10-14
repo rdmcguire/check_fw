@@ -78,7 +78,7 @@ class firewall_tool:
                 for ss in self.listeners:
                     cs, addr = ss.accept()
                     data = cs.recv(1024)
-                    self.print_log(f'Received ping from {addr}, sending pong...',indent=0,sev='good')
+                    self.print_log(f'Received ping on {ss.getsockname()} from {addr}, sending pong...',indent=0,sev='good')
                     cs.send(str.encode('PONG'))
                     cs.close()
         else:
