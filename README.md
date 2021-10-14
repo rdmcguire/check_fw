@@ -46,6 +46,7 @@ check_fw.py -f <some_file.yaml> -v -c
 ```
 
 ## Output (Server)
+![Server Output](/contrib/Screenshot_Server.png?raw=true "Server Output")
 ```
 ** Found server declaration, running ports...
         ** Port declarations found, ensuring listeners on ports:
@@ -67,6 +68,7 @@ check_fw.py -f <some_file.yaml> -v -c
 ```
 
 ## Output (Client)
+![Server Output](/contrib/Screenshot_Client.png?raw=true "Client Output")
 ```
 ** Running port checks
         ** Scanning host 192.168.0.1
